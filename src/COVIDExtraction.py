@@ -47,7 +47,9 @@ usa_county_data_df = pd.read_csv("../datasets/COVID/usa_county_data.csv")
 global_daily_data_df = pd.read_csv("../datasets/COVID/global_by_day.csv")
 
 # .head will print the first n rows of the dataframe.
-print(global_daily_data_df.head(5))
+print(global_daily_data_df.head(1))
+print(usa_county_deaths_by_date_df.head(1))
+print(usa_county_data_df.head(1))
 
 cur, conn = create_database()
 
